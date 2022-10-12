@@ -1,13 +1,19 @@
 # LoginApp React & AWS 
 La aplicación de Login de React y AWS se creó para mejorar mis habilidades con la API Cognito, crear y subir aplicaciones a AWS, crear almacenamiento y bases de datos con DynamoDB y crear funciones Lambda. 
 
-La aplicación incluye:
+
+## Funcionalidad 📋
 * Autenticación con AWS Cognito y la API Auth
 * Creación de nuevas cuentas en AWS Cognito
 * Subida de la aplicación a AWS
 * Creación de almacenamiento en DynamoDB
 * Creación de funciones Lambda
 * Conexión a la API Auth de AWS Cognito
+
+## Mejoras a implementar 💡
+ - Mejorar el UI
+ - Cambiar contraseña
+ - Cambiar Email
 
 ## Cómo iniciar la aplicación
 ### Prerrequisitos
