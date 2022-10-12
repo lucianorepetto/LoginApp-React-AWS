@@ -1,12 +1,16 @@
 import './App.css';
 import SignUp from './components/SignUp';
-
+import Login from './components/Login';
+import { Account } from './components/Account';
+import Status from './components/Status';
 
 function App() {
   return (
-    <div>
+    <Account>
+      <Status/>
       <SignUp/>
-    </div>
+      <Login/>
+    </Account>
   );
 }
 
