@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useContext} from 'react'
 import {AccountContext} from "./Account"
 import ChangePassword from './ChangePassword'
+import ChangeEmail from './ChangeEmail'
 
 export default () => {
     const {getSession} = useContext(AccountContext)
@@ -20,6 +21,7 @@ export default () => {
             <>
                 <h2>Settings</h2>
                 <ChangePassword/>
+                <ChangeEmail/>
             </>
         )}
     </div>
